@@ -1,6 +1,4 @@
-<figure>
-		<img src='img/mainpic.jpg' alt='First side image of me and my life'/>
-</figure>
+[FIGURE src="[BASEURL]img/mainpic.jpg" alt="First side image of me and my life" nolink="nolink" style="max-width:99%"]
 Om mig
 ========
 Hej mitt namn är Gunnar Carlsson.

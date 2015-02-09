@@ -232,6 +232,7 @@ class CTextFilter
                     'alt' => null,
                     'caption' => null,
                     'href' => null,
+					'style' => null,
                     'nolink' => false,
                 ],
                 CTextFilter::ShortCodeInit($options)
@@ -242,6 +243,7 @@ class CTextFilter
         $id = $id ? " id='$id'" : null;
         $class = $class ? " class='figure $class'" : " class='figure'";
         $title = $title ? " title='$title'" : null;
+		$style = $style ? " style='$style'" : null;
 
         if (!$alt && $caption) {
             $alt = $caption;
@@ -261,7 +263,7 @@ class CTextFilter
 
         $html = <<<EOD
 <figure{$id}{$class}>
-{$a_start}<img src='{$src}' alt='{$alt}'{$title}/>{$a_end}
+{$a_start}<img src='{$src}' alt='{$alt}'{$title} {$style}/>{$a_end}
 <figcaption markdown=1>{$caption}</figcaption>
 </figure>
 EOD;
