@@ -51,6 +51,8 @@ The following external modules are included and subject to its own license.
 History
 -----------------------------------
 
+###History for GuCa-MVC
+v2.kmom01 (2015-02-09)
 
 ###History for Anax-MVC
 
