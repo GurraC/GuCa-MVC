@@ -59,13 +59,7 @@ $app->router->add('source', function() use ($app) {
 
 $app->router->add('calendar', function() use ($app) {
     $app->theme->setTitle("Kalender");
-		$session= new \Anax\Session\CSession();
-		$session->name('currentdate');
-	$calendar = new \Mos\Calendar\Calendar([
-        'secure_dir' => '..', 
-        'base_dir' => '..', 
-        'add_ignore' => ['.htaccess'],
-    ]);
+	$calendar = new \Mos\Calendar\Calendar();
  
     $app->views->add('me/calendar', [
         'content' => $calendar->getCalendar(),
