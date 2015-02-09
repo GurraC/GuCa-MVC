@@ -1,5 +1,5 @@
-Anax-MVC
-=========
+GuCa-MVC based on Anax-MVC
+==========================
 
 [![Latest Stable Version](https://poser.pugx.org/leaphly/cart-bundle/version.png)](https://packagist.org/packages/anax/mvc)
 [![Build Status](https://travis-ci.org/mosbth/Anax-MVC.png?branch=master)](https://travis-ci.org/mosbth/Anax-MVC)
